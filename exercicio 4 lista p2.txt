@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdioh.h>
+int main ()
+{
+int botao_estado,botao_on,botaooff,saida,resto:
+
+float tempo;
+botao_on=0
+botao_on=botao_estado
+
+if(botao_on=0)
+for(tempo=0;tempo<2;tempo++){
+resto=tempo/2
+if(resto==0)
+saida=1
+else if(resto1=0)
+saida=0
+
+return0;}

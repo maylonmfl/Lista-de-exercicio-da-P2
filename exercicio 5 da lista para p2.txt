@@ -1,0 +1,51 @@
+#include<stdio.h>
+#include<unistd.h>
+
+int main(void){
+
+int temp;
+
+printf("entre com a temperatura:  ");
+scanf("%i",& temp);
+//printf("\n");
+if(temp<105){
+while(temp<105){
+if(temp<=40){
+while(temp<=40){
+printf("%i oC motor frio!\n,temp);
+sleep(1);
+temp++;
+	}
+}
+printf("\n");
+if(temp<70){
+while(temp<70){
+printf("%i oc motor aquecendo!\n",temp);
+sleep(1);
+temp++;
+	}
+}
+printf("\n");
+if(temp<90){
+while(temp<90){
+printf("%i  oc temperatura de trabalho!\n",
+temp);sleep(1);
+temp++;
+	}
+}
+printf("\n");
+if(temp>=90){
+while(temp>=71){
+printf("%i oc ventuinha ligada!\n",temp);
+sleep(1);
+temp--;
+	}
+     }
+}
+else{
+printf("%i oc motor quente!!!!\n,temp);
+printf("motor parado");
+printf("\n");
+}
+return 0;
+}

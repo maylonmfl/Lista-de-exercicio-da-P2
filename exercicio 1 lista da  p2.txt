@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main(void)
+{
+int nro_1,nro2,mmc,v_aux;
+
+printf("entre com nro_1");
+scanf("&d", &nro_1);
+printf("entre com nro_2");
+scanf("%d", &nro_2);
+
+mmc=1
+v_aux=2
+
+while(nro_1//nro_2>1)
+{
+if((nro_1%v_aux>0)&&(nro_2%v_aux>0))
+v_aux=v_aux+1;
+
+if(nro_1%v_aux==0)
+nr0_1=nro_1/v_aux;
+
+if(nro_2%v_aux==0)
+nro_2=nro_2/v_aux;
+
+mmc=mmc*v_aux;
+}
+printf("MMC:%d\n",mmc);
+
+return 0;
+}

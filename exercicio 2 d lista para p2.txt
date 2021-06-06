@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+ int nr_1, nr_2 , x ,contador;
+ 
+ 
+ for ( nr_1 = 1; nr_1 <= 9; nr_1++)
+ for ( nr_2 = 0; nr_2 <= 9; nr_2++)
+ for (x = 0; x <= 9; x++)
+ printf ("%d = (%d*%d*%d)\n" , nr_1*nr_2*x , nr_1 , nr_2 , x );
+ 
+ return 0; }
